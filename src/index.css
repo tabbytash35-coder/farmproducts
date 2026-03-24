@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poiret+One&family=Rye&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Rye", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+font-family: "Rye", serif;
+}
