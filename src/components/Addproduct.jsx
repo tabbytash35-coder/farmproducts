@@ -30,6 +30,8 @@ const Addproduct = () => {
             setSuccess(response.data.message)
             setLoading("")
         }catch(error){
+            setError(error.message)
+            setLoading("")
 }
     }
     return (
