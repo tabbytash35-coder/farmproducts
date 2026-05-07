@@ -32,13 +32,14 @@ const Mpesapayment = () => {
         }
     }
     return (
+        <div className="mpesapayment-container">
         <div className="row justify-content-center">
-            <h1 className="text-success text-center">Make Payment- Lipa Na Mpesa</h1>
-            <div className="col-md-8 card shadow p-4">
+            <h1 className="text-primary text-center">Make Payment- Lipa Na Mpesa</h1>
+            <div className="col-md-8 card shadow p-4 bg-dark text-white">
                 <img src={imagepath + singleproduct.product_photo} alt="" style={{ height: "200px", objectFit: "contain" }} />
 
                 <div className="card-body">
-                    <h1 className="text-info ">{singleproduct.product_name}</h1>
+                    <h1 className="text-success ">{singleproduct.product_name}</h1>
                     <p>{singleproduct.product_description}</p>
                     <b className="text-warning">ksh {singleproduct.product_cost}</b><br />
 
@@ -48,11 +49,12 @@ const Mpesapayment = () => {
                     <h2 className="text-danger">{error}</h2>
 
                     <form action="" onClick={handlesubmit}>
-                        <input type="number" className="form-control" placeholder="Enter phone 254xxxxxxxxx" onChange={(e) => setPhone(e.target.value)} /><br />
+                        <input type="number" className="form-control" placeholder="Enter phone 📞 254xxxxxxxxx" onChange={(e) => setPhone(e.target.value)} /><br />
                         <button type="submit" className="btn btn-success w-100">Make payment</button>
                     </form>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

@@ -4,6 +4,77 @@
   
 }
 
+.getproducts-container {
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url("/public/images/bg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.signup-container {
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url("/public/images/bg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.mpesapayment-container {
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url("/public/images/mpesa4.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.signin-container {
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url("/public/images/bg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.addproduct-container {
+  background-image: 
+  linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+  url("/public/images/bg2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  padding: 10px;
+}
+
+.logout-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.logout-btn:hover {
+  background-color: darkred;
+}
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -25,6 +96,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;

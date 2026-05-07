@@ -35,6 +35,7 @@ const Addproduct = () => {
 }
     }
     return (
+        <div className="addproduct-container">
         <div className='row  justify-content-center mt-2'>
             <div className='col-md-6 card shadow p-1 bg-dark'>
                 <h1 className="text-center text-primary">Add products</h1>
@@ -52,7 +53,7 @@ const Addproduct = () => {
                     <button type='submit' className='btn btn-primary  w-100' >Add product</button>
                 </form>
             </div>
-
+        </div>
         </div>
     )
 }

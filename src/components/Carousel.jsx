@@ -10,7 +10,7 @@ const Carousel = () => {
                     <div class="carousel-inner">
                         {/* <!-- div with image one  --> */}
                         <div class="carousel-item active">
-                            <img src="images/jj.jpg" alt="slide1" 
+                            <img src="images/gpt1.jpeg" alt="slide1" 
                               style={{height:"400px",width:"1200px",objectFit:"cover"}}/>
                             </div>
                             {/* <!-- div with image two  -->  */}
