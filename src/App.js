@@ -11,6 +11,7 @@ import Mpesapayment from './components/Mpesapayment';
 import { BrowserRouter, Route, Routes,Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import FarmChatbot from './components/ChatBot';
 function App() {
   return (
 <BrowserRouter>
@@ -38,6 +39,8 @@ function App() {
       <Route path="/addproduct" element={<Addproduct/>} />
       <Route path="/makepayment" element={<Mpesapayment/>} />
      </Routes>
+    <FarmChatbot/>
+    <Footer/>
     </div>
 </BrowserRouter>
   );
