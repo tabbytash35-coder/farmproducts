@@ -40,7 +40,6 @@ function App() {
       <Route path="/makepayment" element={<Mpesapayment/>} />
      </Routes>
     <FarmChatbot/>
-    <Footer/>
     </div>
 </BrowserRouter>
   );
