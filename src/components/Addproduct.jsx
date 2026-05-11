@@ -24,6 +24,7 @@ const Addproduct = () => {
         formdata.append("product_description", product_description)
         formdata.append("product_cost", product_cost)
         formdata.append("product_photo", product_photo)
+        formdata.append("product_photo", product_photo)
 
         try {
             const response = await axios.post("http://tashhiggs.alwaysdata.net/api/addproduct", formdata)
